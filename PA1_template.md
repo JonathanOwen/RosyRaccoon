@@ -48,15 +48,6 @@ data frame.
 activity <- read.csv(unzip("repdata-data-activity.zip","activity.csv"), 
                      colClasses = c("integer","character","integer"))
 ```
-
-```
-## Warning in unzip("repdata-data-activity.zip", "activity.csv"): error 1 in
-## extracting from zip file
-```
-
-```
-## Error in file(file, "rt"): invalid 'description' argument
-```
 Here is an example of the what the data look like.
 
 ```r
@@ -272,14 +263,6 @@ Use ggplot2 for a panel plot comparing the time series for weekdays and weekends
 
 ```r
 library(ggplot2)
-```
-
-```
-## Find out what's changed in ggplot2 with
-## news(Version == "1.0.1", package = "ggplot2")
-```
-
-```r
 qplot(time, average_steps, data = by_f_interval, geom = "line", 
       facets = day_factor~. , col = day_factor, 
       xlab = "Time Interval",
