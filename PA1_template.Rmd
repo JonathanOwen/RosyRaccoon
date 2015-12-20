@@ -4,7 +4,7 @@ Reproducible Research Peer Assessment 1
 ---------------------------------------  
 
 Jonathan Owen  
-December 20th, 2015  
+December 15th, 2015  
 
   
   
@@ -28,7 +28,7 @@ contribution to reproducible research.
 are from an activity monitoring device. The device recorded the number of 
 steps taken by an anonymous individual in 5-minute intervals during a two-month 
 period from October to November 2012. For this work the dataset was accessed at 
-9:07pm UTC on December 20th, 2015.
+9:28pm UTC on December 20th, 2015.
 
   + **dataset**:  [Activity monitoring data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip)
   are available from the course website. (52k, zipped comma separated variable file)
